@@ -1,0 +1,40 @@
+step 1
+
+javac RemoteInterface.java
+javac ServerImplements.java
+
+
+step 2
+
+rmic ServerImplements
+this step creates stub/skeleton
+
+
+step3 
+
+javac Server.java
+javac client.java
+
+step 4 
+open two more command prompts by writing 'start' twice.
+
+step 5
+on first console:
+rmiregistry
+
+step 6
+
+on Second console:
+java Server
+
+step 7
+on third console:
+java client
+
+
+
+for local PC:
+USe loopaddress/LocalHost Address;;;;
+
+
+:-)
